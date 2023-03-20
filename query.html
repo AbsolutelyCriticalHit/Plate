@@ -1,0 +1,29 @@
+/* Mobile */
+/*
+ Breakpoinst
+    min   max
+ 320px - 480px  mobile
+ 481px - 768px  ipads and tablets
+ 769px - 1024px  small screens and laptops
+ 1025px - 1200px  desktops and largescreens
+*/
+@media screen and (max-width: 480px) {
+    img{
+        width: 250px;
+        height: 100px;    
+    }
+    .container{
+        background-color: blue;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container{
+        background-color: tomato;
+    }
+    img{
+        width: 350px;
+        height: 150px;
+    }
+}
